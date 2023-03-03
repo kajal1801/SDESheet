@@ -1,5 +1,5 @@
 public class MaximumSubarraySum {
-	
+	// Kadane's Algorithm
 	public static long maxSubarraySum(int[] arr, int n) {
 		// write your code here
 		long sum = 0, curr = 0;
